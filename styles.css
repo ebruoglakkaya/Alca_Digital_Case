@@ -1,0 +1,218 @@
+
+.jumbotron {
+   background-image: url(bg.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.navbar-brand {
+  height: 44px;
+}
+.text-ligth {
+   font-size: 65px;
+    margin-bottom: 51px;
+}
+.button_watch {
+  align-items: center;
+  display: flex;
+}
+
+.iframe_text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.iframe_button {
+  font-weight: bold;
+    width: 183px;
+    height: 52px;
+}
+.iframe_button_find {
+  font-weight: bold;
+    width: 183px;
+    height: 52px;
+}
+.navbar-toggler-icon {
+  border-color: white;
+  color: black;
+}
+
+.container-title {
+margin-top: 72px;
+margin-bottom: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+font-weight: bold;
+color: #400E03;
+ }
+
+ .footer {
+   background-color: #434448;
+   width: 100vw;
+ }
+ .owl-feature-product {
+    border: 1px solid gray;
+ }
+  .col-md-4{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-4 img{
+  width:100%;
+  height:auto;
+}
+body .carousel-indicators li{
+  background-color:red;
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 50%;
+}
+body .carousel-indicators{
+       bottom: -60px;
+           display: flex;
+    align-items: center;
+
+
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color:red;
+}
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+   }
+   .bg-white{
+      background-color: white;
+      margin-right:5px;
+      padding: 15px;
+
+   }
+   body{
+      background-color: #f9f1e6 !important;
+   }
+  .carousel-control-prev{left: -12% !important; opacity: 1 !important;text-decoration: none;}
+  .carousel-control-next{right: -12% !important; opacity: 1 !important;text-decoration: none;}
+  .btnMore{
+       width: 49%;
+    background: #ffd3d3;
+    border: none;
+    height: 35px;
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+        font-size: 12px;
+  }
+  .btnFind{
+   width: 49%;
+    background: red;
+    border: none;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+        font-size: 12px;
+
+  }
+  .videoBtn{
+    background-color: white;
+    color: red;
+    margin-bottom: 50px;
+    border-radius: 0px !important;
+    margin-top:15px;
+    margin-right: calc(var(--bs-gutter-x) * .5); 
+    margin-left: calc(var(--bs-gutter-x) * .5);
+  width: 95%;
+  }
+  
+  .border-red{
+   border-bottom: 3px solid red;
+  }
+  .carousel-indicators > .active {
+   background-color: red !important;
+    width: 11px !important;
+    height: 11px !important;
+}
+.arrow{
+   color: white;
+     background-color: #680909;
+    padding: 10px;
+}
+.arrow-mobile{
+   color: white;
+     background-color: #680909;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .iframe_button {
+    display: none;
+    width: 308px;
+    height: 52px;
+    font-weight: bold;
+  }
+  .desktop-carousel{display:  none !important;}
+  .carousel-control-prev,
+  .carousel-control-next{
+ display:none !important;
+}
+.text-light{font-size:23px;padding-top:10px;}
+ .iframeHeight{ height:50vw}
+}
+
+@media only screen and (min-width: 601px) {
+ 
+  .mobile-carousel{display:  none !important;}
+  .videoBtn{display:  none !important;}
+  .iframeHeight{ height:600px}  
+
+}
+@media only screen and (max-width: 900px) {
+  #navbarNavAltMarkup{
+    position: fixed;
+    bottom: 0px;
+    background: rgb(114, 62, 62);
+    width: 100%;
+    left: 0px;
+    z-index: 99;
+    padding: 16px;
+    height: calc(100% - 56px ) !important;
+  }
+  
+}
+@media screen and (max-width: 320px) {
+  .container-title {
+     margin-top: 32px;
+     font-size: 26px;
+     margin-bottom: 24px;
+     font-weight: 700;
+     }
+     .iframe_button {
+       display: none;
+       width: 308px;
+       height: 52px;
+       font-weight: bold;
+     }
+     .iframe_button_find {
+       font-weight: bold;
+       padding: 12px 16px;
+       height: 39px;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+     }
+     .iframe_text {
+       margin-top: 16px;
+       margin-bottom: 16px;
+     }
+}
+/**/
+
+
