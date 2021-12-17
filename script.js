@@ -29,7 +29,6 @@ $(document).ready(function () {
     $(".modal-profile").modal({ show: true });
   });
 
-
   var myCollapsible = document.getElementById("navbarNavAltMarkup");
   myCollapsible.addEventListener("show.bs.collapse", function () {
     $(
@@ -43,43 +42,38 @@ $(document).ready(function () {
     $(".navbar-toggler").html('<span class="navbar-toggler-icon"></span>');
   });
 
-  $('.owl-products').owlCarousel({
-    loop:true,
+  $(".owl-products").owlCarousel({
+    loop: true,
     dots: true,
-    margin:24,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:3,
-        },
-        1100:{
-            items:3,
-            nav:true,
-            navText: [
-                `<a class="carousel-control-next" >
+    margin: 24,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+      600: {
+        items: 1,
+        nav: false,
+      },
+      1000: {
+        items: 3,
+      },
+      1100: {
+        items: 3,
+        nav: true,
+        navText: [
+          `<a class="carousel-control-next" >
                     <i class="lnr lnr-arrow-right arrow"></i>
                 </a>
                 `,
-                `
+          `
                 <a class="carousel-control-prev">
                     <i class="lnr lnr-arrow-left arrow"></i>
                 </a>
                 `,
-            ],
-
-        }
-    }
+        ],
+      },
+    },
+  });
 });
-
-
-});
-
-
