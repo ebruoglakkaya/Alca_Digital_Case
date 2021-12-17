@@ -10,11 +10,13 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
     />
-
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -28,10 +30,10 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Custom Css-->
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
     <title>Alca Digital</title>
   </head>
   <body>
@@ -51,20 +53,30 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
+            <div class="navbar-nav ms-auto navbar_menu">
               <a class="nav-link active" aria-current="page" href="#"
-                >SHOW ALL TYRES</a
-              >
-              <a class="nav-link" href="#">FIND A DEALER</a>
-              <a class="nav-link" href="#">GUIDES & VIDEOS</a>
-              <a class="nav-link" href="#">GO WITH</a>
-              <a class="nav-link" href="#">SERVICE AND HELP</a>
+                ><span class="nav-link-text">SHOW ALL TYRES </span>         
+                <i class="fas fa-chevron-right"></i>            
+                  </a><hr>
+              <a class="nav-link" href="#"> <span class="nav-link-text">FIND A DEALER</span>
+                <i class="fas fa-chevron-right"></i>            
+              </a>
+              <hr>
+              <a class="nav-link" href="#"> <span class="nav-link-text">GUIDES & VIDEOS</span>
+                <i class="fas fa-chevron-right"></i>            
+              </a><hr>
+              <a class="nav-link" href="#"><span class="nav-link-text"> WITH</span>
+                <i class="fas fa-chevron-right"></i>            
+              </a><hr>
+              <a class="nav-link" href="#"><span class="nav-link-text">SERVICE AND HELP</span>
+                <i class="fas fa-chevron-right"></i>            
+              </a><hr>
             </div>
           </div>
         </div>
       </nav>
       <div class="jumbotron">
-        <h1 class="text-light">Nothing can stop you</h1>
+        <h1 class="text-light">Nothing can stop <br><span class="you-text">you</span></h1>
         <button class="btn btn-light text-danger iframe_button_find">
           FIND OUT MORE
         </button>
@@ -73,25 +85,154 @@
 
     <main class="container">
       <div class="container-title">FEATURED PRODUCT</div>
-
-      <section class="desktop-carousel">
+      <div class="owl-carousel owl-theme owl-products">
+        <div class="item">
+          <div class="bg-white border-red" style="display: flex; flex-direction: column;">
+            <h5>ICEWAYS</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS SUPORT</h5>
+            <p>
+              Driveways is a "Comfort tyre" developed for a considerably
+                    wide vehicle pool ranging from middle class sedans to upper
+                    class comfort automobiles.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS COMPETUS H/P</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>ICEWAYS</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS SUPORT</h5>
+            <p>
+              Driveways is a "Comfort tyre" developed for a considerably
+                    wide vehicle pool ranging from middle class sedans to upper
+                    class comfort automobiles.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS COMPETUS H/P</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>ICEWAYS</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS SUPORT</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="bg-white border-red">
+            <h5>DRIVEWAYS COMPETUS H/P</h5>
+            <p>
+              City life is changing. So are the habits of urban citizien.
+              4x4 cars that were previously used only on changing lands
+              are now prefered for urban use.
+            </p>
+            <div class="buttons" >
+              <button type="button" class="btnMore">Learn More</button>
+              <button type="button" class="btnFind">Find a Dealer</button>
+            </div>
+          </div>
+        </div>
+    </div>
+      <!-- <section class="desktop-carousel">
+        
+        
         <div
           id="demo"
           class="carousel slide"
           data-ride="carousel"
           style="margin-bottom: 100px"
         >
-          <!-- Indicators -->
+          Indicators
           <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
           </ul>
 
-          <!-- The slideshow -->
-          <div class="container carousel-inner no-padding">
+          The slideshow -->
+          <!-- <div class="container carousel-inner no-padding">
             <div class="carousel-item active">
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>ICEWAYS</h5>
                   <p>
@@ -103,7 +244,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS SUPORT</h5>
                   <p>
@@ -115,7 +256,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS COMPETUS H/P</h5>
                   <p>
@@ -129,7 +270,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>ICEWAYS</h5>
                   <p>
@@ -141,7 +282,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS SUPORT</h5>
                   <p>
@@ -153,7 +294,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS COMPETUS H/P</h5>
                   <p>
@@ -167,7 +308,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>ICEWAYS</h5>
                   <p>
@@ -179,7 +320,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS SUPORT</h5>
                   <p>
@@ -191,7 +332,7 @@
                   <button type="button" class="btnFind">Find a Dealer</button>
                 </div>
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-4">
+              <div class="col-md-4">
                 <div class="bg-white border-red">
                   <h5>DRIVEWAYS COMPETUS H/P</h5>
                   <p>
@@ -204,33 +345,33 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <i class="lnr lnr-arrow-left arrow"></i>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
             <i class="lnr lnr-arrow-right arrow"></i>
           </a>
         </div>
-      </section>
-      <section class="mobile-carousel">
+      </section> --> 
+      <!-- <section class="mobile-carousel">
         <div
           id="demo"
           class="carousel slide"
           data-ride="carousel"
           style="margin-bottom: 100px"
-        >
+        > -->
           <!-- Indicators -->
-          <ul class="carousel-indicators">
+          <!-- <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
+          </ul> -->
 
           <!-- The slideshow -->
-          <div class="container carousel-inner no-padding">
+          <!-- <div class="container carousel-inner no-padding">
             <div class="carousel-item active">
               <div class="col-xs-3 col-sm-3 col-md-4">
                 <div class="bg-white border-red">
@@ -357,21 +498,24 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <i class="lnr lnr-arrow-left arrow-mobile"></i>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
             <i class="lnr lnr-arrow-right arrow-mobile"></i>
           </a>
         </div>
-      </section>
+      </section> -->
+
+
+
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="row m-2">
+        <div class="row">
           <div class="col-md-9 col-xs-12 col-sm-12 iframe_text">
             <h1 class="text-light">
               Feel the excellent wet braking with Driveways!
@@ -409,6 +553,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://kit.fontawesome.com/53a9fefe3e.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>

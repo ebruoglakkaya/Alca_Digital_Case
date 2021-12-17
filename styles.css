@@ -10,9 +10,32 @@
   justify-content: center;
   align-items: center;
 }
+.buttons {
+  width: 100%;
+}
 .navbar-brand {
   height: 44px;
 }
+
+.container-fluid .navbar-toggler {
+  border: none !important;
+    font-weight: 900;
+}
+.you-text {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar_menu {
+  margin-right: 60px;
+}
+.nav-link {
+  font-family: 'Sora', sans-serif;
+    font-size: 14px;
+  font-weight: 600;
+}
+
 .text-ligth {
   font-size: 65px;
   margin-bottom: 51px;
@@ -40,6 +63,7 @@
   border-color: white;
   color: black;
 }
+
 
 .container-title {
   margin-top: 72px;
@@ -104,6 +128,11 @@ body {
   opacity: 1 !important;
   text-decoration: none;
 }
+.right_arrow {
+  width: 10px;
+  height: 10px;
+  color: white;
+}
 .btnMore {
   width: 49%;
   background: #ffd3d3;
@@ -153,6 +182,31 @@ body {
   background-color: #680909;
   padding: 10px;
 }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #680909;
+}
+.owl-products .owl-stage{
+  display: flex;
+
+}
+.owl-products .owl-item{
+  display: flex;
+
+}
+.owl-products .item{
+  display: flex;
+  
+}
+.owl-carousel .owl-item > .active{
+  display: flex;
+
+}
+
+.owl-products .item > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 600px) {
   .iframe_button {
@@ -197,8 +251,20 @@ body {
     left: 0px;
     z-index: 99;
     padding: 16px;
-    height: calc(100% - 56px) !important;
+    height: calc(100% - 60px) !important;
   }
+  .fa-chevron-right{
+color: white;    
+right: 16px;
+    position: absolute;  
+  }
+  .nav-link {
+    font-family: 'Sora', sans-serif;
+      font-size: 14px;
+    font-weight: 600;
+    color: white;
+  }
+
 }
 @media screen and (max-width: 320px) {
   .container-title {
@@ -226,4 +292,17 @@ body {
     margin-bottom: 16px;
   }
 }
-/**/
+@media only screen and (min-width: 998px) {
+  .fa-chevron-right {
+display: none !important;  
+}
+.nav-link-text {
+  color: black;
+}
+}
+
+@media only screen and (max-width: 998px) {
+.nav-link-text {
+  color: white;
+}
+}
